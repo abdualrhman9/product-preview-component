@@ -41,7 +41,7 @@ main {
 .product .product-image {
     width: 100%;
     height: 221px;
-    background-image: url(/images/image-product-mobile.jpg);
+    background-image: url(../images/image-product-mobile.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,7 +51,7 @@ main {
 
 @media (min-width: 540px) {
     .product .product-image {
-        background-image: url(/images/image-product-desktop.jpg);
+        background-image: url(../images/image-product-desktop.jpg);
         width: 240px;
         height: 385px;
         background-size: cover;
